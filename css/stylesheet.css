@@ -1,0 +1,150 @@
+
+.btn {
+	white-space: normal;
+}
+
+body {
+	background: url(../images/Pacific-CMYK.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+
+#mainDiv {
+	position: relative;
+	top: 15%;
+	margin: auto;
+	max-width: 80%;
+	min-height: 40%;
+	border: black 2px solid;
+	//display: flex;
+	//flex-direction: row;
+	overflow: visible;
+
+}
+
+.buttonDiv {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	border: black 1px solid;
+	overflow: auto;
+	display: flex;
+	//flex-grow:1;
+	flex-direction: column;
+	margin: auto;
+
+}
+
+.resbutton {
+	position: relative;
+	width: 80%;
+	max-height: 12%;
+	flex-grow:1;
+	margin: auto;
+}
+
+#centreText{
+	top: 0;
+	width: 100%;
+	text-align: center;
+	//font-size: 350%;
+	font-size: 55px;
+	//font-size: 8vh;
+
+}
+
+h1 {
+	position: absolute;
+	display: inline;
+	width: 100%;
+	top: 45%;
+	font-family: arial;
+	color: white; 
+	//font-size: 5vh;
+
+}
+
+h2 {
+	position: absolute;
+	display: inline;
+	width: 100%;
+	top: 45%;
+	font-family: arial;
+	//font-size: 100%;
+	color: white; 
+	//font-size: 5vh;
+}
+
+#topTitleDiv {
+        position: relative;
+        top: 14%;
+        margin-bottom: 0;
+        height: 10%;
+        width: 80%;
+        bottom: 0;
+        margin: auto;
+
+}
+
+#titleDiv {
+	position: relative;
+	top: 15%;
+	margin-bottom: 0;	
+	height: 10%;
+	width: 80%;
+	bottom: 0;
+	margin: auto;
+
+}
+
+#leftText {
+	top: 0;
+	left: 0;
+	margin: auto;
+	text-align: center;
+	width: 50%;
+}
+
+#rightText {
+	top: 0;
+	width: 50%;
+	text-align: center;
+	right: 0;
+	margin: auto;
+}
+
+#boxText {
+        margin: auto;
+	text-align: center;
+
+}
+
+#rightDiv {
+	margin-left: 50%;
+}
+
+#leftDiv {
+	z-index:1000;
+}
+
+.videoDiv {
+	position: relative;
+	height: 25%;
+	width: 80%;
+	top: 15%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.vidButton {
+	position: relative;
+	margin: auto;
+	top: 0%;
+	height: 100px;
+	max-width: 100px;
+	flex-grow: 1;
+}
